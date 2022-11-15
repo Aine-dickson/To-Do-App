@@ -9,23 +9,34 @@
 </head>
 <body>
     <div class="container">
-        <input type="text" name="" id="title">
-        <textarea id="task-body"></textarea>
-        <div class="text-area">
-            <span>Title:</span>
-            <span class="title-text"></span>
-        </div>
-        <div class="task-body"></div>
-        <div class="task-display">
-            
-        </div>
-        <div class="btns">
-            <button id="add">Add</button>
-            <div class="takeway">
-                <button id="push">push</button>
-                <button id="cancel">cancel</button>
+        <section class="edits hidden">
+            <input type="text" name="" id="title" class="hidde">
+            <textarea id="task-body" class="hidde"></textarea>
+            <div class="text-area">
+                <span>Title:</span>
+                <span class="title-text template">
+                    Type here the title of your task
+                </span>
             </div>
-        </div>
+            <div class="body">
+                <span>Task Body:</span>
+                <div class="task-body template">
+                    Type here the task body!
+                </div>
+            </div>
+        </section>
+        <section class="display">
+            <div class="task-display">
+            
+            </div>
+            <div class="btns">
+                <button id="add">Add</button>
+                <div class="takeway">
+                    <button id="push">push</button>
+                    <button id="cancel">cancel</button>
+                </div>
+            </div>
+        </section>
     </div>
     <script src="./jquery-3.6.1.js"></script>
     <script src="./script.js"></script>
