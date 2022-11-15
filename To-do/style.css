@@ -1,0 +1,38 @@
+.task-display{
+    padding: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+.task{
+    border: 0;
+    border-radius: 0.4rem;
+    box-shadow: inset 0 0 0.4rem black;
+    height: 2rem;
+    align-items: center;
+    width: 15rem;
+    padding: 0.3rem 0.5rem;
+    display: flex;
+    margin-top: 0.5rem;
+}
+.text-area{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.title-text{
+    height: 1.5rem;
+    border: 0.1rem solid gray;
+    box-shadow: 0 0.2rem 0.3rem gray;
+    border-radius: 0.2rem;
+    width: 15rem;
+    padding: 0.3rem;
+}
+.task-body{
+    height: 10rem;
+    border: 0.1rem solid gray;
+    width: 80%;
+    border-radius: 0.2rem;
+    font-size: large;
+}
+ 
